@@ -1,0 +1,20 @@
+{
+  "fortigate": {
+    "host": "192.168.1.1",
+    "port": 443,
+    "verify_ssl": false,
+    "vdom": "root"
+  },
+  "toggles": [
+    {
+      "id": "user1",
+      "label": "User 1 Internet Access",
+      "policy_id": 1
+    },
+    {
+      "id": "user2",
+      "label": "User 2 Internet Access",
+      "policy_id": 2
+    }
+  ]
+}

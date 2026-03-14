@@ -1,0 +1,14 @@
+services:
+  fortigate-policy-toggler:
+    build: .
+    container_name: fortigate-policy-toggler
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config:/app/config:ro
+    env_file:
+      - .env
+    environment:
+      - APP_HOST=0.0.0.0
+      - APP_PORT=8080
