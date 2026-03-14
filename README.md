@@ -19,12 +19,6 @@ On startup the app queries Fortigate to sync real policy states, so the UI alway
 
 ---
 
-## Screenshots
-
-> Two cards, dark theme, big iOS-style toggle switches. Works great on a phone.
-
----
-
 ## Requirements
 
 - Docker + Docker Compose
